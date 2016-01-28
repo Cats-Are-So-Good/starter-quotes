@@ -1,0 +1,7 @@
+CHANGELOG.txt
+-----------------
+Newest first
+Date (eg. 2016.01.28), time (eg. 13.52): Description
+-----------------
+
+2016.01.28, 13.54: Initial setup
