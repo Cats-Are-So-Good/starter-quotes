@@ -1,6 +1,11 @@
 #######################
 Starter Webapp - Quotes
 #######################
+Members:
+Marisa Doig
+Erick Fernandez de Arteaga
+
+Conventions: tabs, snake case, allman style
 
 This is the starter webapp for Tutorial ci-normal01
 
