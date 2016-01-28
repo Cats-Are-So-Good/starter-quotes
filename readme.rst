@@ -3,7 +3,7 @@ Starter Webapp - Quotes
 #######################
 Members:
 Marisa Doig
-Erick Fernandez de Arteaga
+Erick Fernandez de Arteaga - Set Up Complete
 
 Conventions: tabs, snake case, allman style
 
