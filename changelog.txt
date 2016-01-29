@@ -4,5 +4,6 @@ Newest first
 Date (eg. 2016.01.28), time (eg. 13.52): Description
 -----------------
 
+2016.01.28, 17.33: Fixed image link 1
 2016.01.28, 17.15: Fixed "First" link
 2016.01.28, 13.54: Initial setup
