@@ -31,6 +31,22 @@ class Welcome extends Application {
         $this->render();
     }
 
+    
+    //-------------------------------------------------------------
+    //  Display Elaine Boosler's quote
+    //-------------------------------------------------------------
+    function shucks() {
+        // Get the single quote view.
+        $this->data['pagebody'] = 'justone';
+        // Get Monkhouse's record from the quotes object.
+        $record = $this->quotes->get('2');
+        // Set the values of the view parameters.
+        $this->data['who'] = $record['who'];
+        $this->data['what'] = $record['what'];
+        $this->data['mug'] = $record['mug'];
+        // Render the view.
+        $this->render();
+    }
 
 }
 
