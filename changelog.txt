@@ -4,10 +4,8 @@ Newest first
 Date (eg. 2016.01.28), time (eg. 13.52): Description
 -----------------
 
-<<<<<<< HEAD
-2016.01.28, 17.42: Fixed Russell's quote link
-=======
->>>>>>> refs/remotes/Cats-Are-So-Good/develop
+2016.01.29, 15.19: Fixed Socrates' quote link
+2016.01.29, 12.51: Fixed Russell's quote link
 2016.01.28, 17.33: Fixed Monkhouse's quote link
 2016.01.28, 17.15: Fixed "First" link
 2016.01.28, 13.54: Initial setup
