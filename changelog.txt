@@ -4,6 +4,7 @@ Newest first
 Date (eg. 2016.01.28), time (eg. 13.52): Description
 -----------------
 
+2016.01.31, 15.35: Fixed "Last" link
 2016.01.31, 15.26: Fixed Asimov's quote link
 2016.01.31, 15.01: Fixed Anonymous quote link
 2016.01.31, 13.50: Fixed Boosler's quote link
