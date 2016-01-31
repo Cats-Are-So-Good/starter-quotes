@@ -52,6 +52,7 @@ $route['dunno'] = function() {
     die();
 };
 $route['comp(:num)/[a-zA-Z]{6}'] = 'wise/bingo';
+$route['last'] = '/last/welcome';
 
 
 /* End of file routes.php */
