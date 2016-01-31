@@ -51,6 +51,7 @@ $route['dunno'] = function() {
     readfile($source);
     die();
 };
+$route['comp(:num)/[a-zA-Z]{6}'] = 'wise/bingo';
 
 
 /* End of file routes.php */
