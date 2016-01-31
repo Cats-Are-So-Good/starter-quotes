@@ -53,6 +53,26 @@ class First extends Application {
             // Render the view.
             $this->render();
         }
+        
+        /**
+         * Show Mark Russell's quote.
+         */
+        function gimme($id)
+        {
+            // Get the single quote view.
+            $this->data['pagebody'] = 'justone';
+            
+            // Get Russell's record from the quotes object.
+            $record = $this->quotes->get($id);
+            
+            // Set the values of the view parameters.
+            $this->data['who'] = $record['who'];
+            $this->data['what'] = $record['what'];
+            $this->data['mug'] = $record['mug'];
+            
+            // Render the view.
+            $this->render();
+        }
 }
 
 /* End of file First.php */
