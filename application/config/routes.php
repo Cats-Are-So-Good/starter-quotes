@@ -44,6 +44,13 @@ $route['sleep'] = 'first/zzz';
 $route['show/(:num)'] = 'first/gimme/$1';
 $route['[a-zA-Z]{4}/bingo'] = 'bingo';
 $route['lock/[a-zA-Z]{2}/[a-zA-Z]{2}'] = 'welcome/shucks';
+$route['dunno'] = function() {
+    $source = './data/fun.jpg';
+    header("Content-type: image/jpeg");
+    header('Content-Disposition: inline');
+    readfile($source);
+    die();
+};
 
 
 /* End of file routes.php */
